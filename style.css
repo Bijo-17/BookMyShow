@@ -1,0 +1,772 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column ;
+    
+}
+.full-content{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+
+}
+.main-content{
+    width: 100%;  
+    
+}
+
+.middle-align-div{
+    width: 82%;
+    height:100%;
+    margin-left: 130px;
+    
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+ 
+    
+}
+
+.bookmyshowimg{
+    width: 125px;
+    height: 45px;
+    margin-top: 2px;
+    margin-left:130px
+}
+.left-head{
+    width:18%;
+    
+
+}
+
+.right-head{
+    width: 1200px;
+    height: 50px;
+    display: flex;
+   align-items: center;
+   
+   
+       
+}
+
+#icon-align{
+    z-index: 1000;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.searchbar{
+    width:400px;
+    height: 30px;
+    font-family: roboto;
+    font-size: 14px;
+    margin: 8px 5px;
+    margin-left:-27px;
+    border-radius:4px;
+    border:1px solid rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
+    color:rgb(12, 113, 195);
+    align-items: center;
+    opacity: 1;
+    z-index: 1;
+    padding-left: 30px;
+    background: transparent;
+
+}
+
+.city{
+    margin-left: 455px;
+    font-family: roboto;
+    font-size:14px;
+    font-weight: 400;
+    color: rgb(26, 26, 26);
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.arrowDown-btn{
+    font-size:9px;
+    font-family: roboto;
+    color:#333;
+    background: none;
+    margin-left:10px;
+    border: none;
+    cursor: pointer;
+
+    
+}
+
+.signin-btn{
+background-color:  rgb(248, 68, 100);
+color:white;
+border-radius:4px;
+height: 27px;
+width: 67px;
+border:1px solid rgb(248, 68, 100);;
+margin-left: 15px;
+font-family:roboto;
+font-size: 12px;
+font-weight:400;
+cursor: pointer;
+
+}
+.menu-btn{
+    font-size:20px;
+    color: rgb(117, 86, 86);
+   margin-left: 10px;
+    font-weight:100;
+    background: none;
+    border: none;
+    cursor:pointer; 
+
+}
+
+.searchicon{
+    color: rgb(140, 125, 125);
+}
+
+.nav-menu{
+    width: 100%;
+    background-color:rgb(245, 245, 245);
+    height: 40px;
+    display: flex;
+}
+
+p{
+    display: inline-block;
+    margin-right: 10px;
+    margin: 0;
+    font-family: roboto;
+}
+
+.p-l{
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.p-r{
+    margin-left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+}
+
+.nav-left{
+    width: 50%;
+    height: 100%;
+    padding-left: 130px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.nav-right{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 315px;
+    background-color: #c9d7cb93;
+    
+}
+
+.banner-img{
+    margin: 7px 130px;
+    border-radius:8px;
+}
+
+.heading{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: inline-block;
+    /* margin-left: 130px; */
+    margin-top: 30px;
+    
+}
+
+.seeAll-text{
+    word-break: break-word;
+    color: rgb(220, 53, 88);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    cursor: pointer;
+    margin-left: 936px;
+}
+h1{
+    margin-bottom: 8px;
+}
+.first-section{
+     width: 90%;
+    padding-bottom: 4%;
+    margin-left: 130px;
+    
+ 
+}
+
+.first-section-heading{                /* for movie heading */
+    width: 92%;
+    height:9%;   
+ }
+
+.first-section-movieSection{
+    width: 90%;
+    padding-bottom: 2%;
+    display: flex;
+    gap: 28px;
+    
+    
+}
+    
+ .movie-card{
+    width: 225px;
+    height: 400px;  
+    cursor: pointer; 
+}
+
+.movie-poster{
+    height: 340px;
+    width: 225px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.movie-name{
+    font-size: 18px;
+    font-weight:500px;
+    margin-top: 4px;
+    display: block;
+}
+.genre{
+  color:rgb(102, 102, 102);
+  margin-top: 7px;
+}
+.first-section-bannerSection{
+    width: 100%;
+    padding-bottom: 2%;
+}
+.middle-img{
+    width: 1240px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.first-section-LiveEventSection{
+    width: 100%;
+}
+
+.live-events-content{
+    width:90%;
+    height:45%;
+    display: flex;
+    padding-bottom: 10px;
+    gap: 28px;
+    cursor: pointer;
+    
+}
+
+.live-events{
+    width: 225px;
+    height:200px;
+    
+
+}
+.event-photo{
+    width: 225px;
+    height: 220px;
+    object-fit: fill;
+}
+
+.middle-section{
+    width: 100%;
+     height: 560px;
+     padding-bottom: 2%;
+    background-color:  rgb(43, 49, 72);
+   
+   
+}
+.middle-style{
+    width:90%;
+    height: 230px;
+    margin-left: 130px;
+}
+
+.premiere-playbtn{
+    width: 400px;
+    display: block;
+}
+
+.middle-text{
+    font-size: 24px;
+    font-family: roboto;
+    color:white ;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+.middle-text2{
+    font-size: 14px;
+    font-family: roboto;
+    color:white ;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.Premiere-content{
+    width:100%;
+    height:280px;
+    display: flex;
+    padding-bottom: 10px;
+    gap: 28px;
+    
+}
+
+.premiere-photo-content{
+    width: 225px;
+    height: 340px;
+    object-fit: fill;   
+}
+
+.premiere-photo{
+    width: 225px;
+    height: 290px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.premiere-name{
+    font-size: 18px;
+    color: white;
+    margin: 0 0 4px;
+    font-family:roboto ;
+    font-weight: 500;
+    display: block;
+}
+
+.premiere-language{
+    font-family: roboto;
+    color:white;
+    font-weight: 400;
+}
+
+.last-section{                                                /*last section div */
+    width:100%;
+    /* background: rgb(242, 241, 241); */
+    background:rgb(242, 245, 249);
+    padding-top: 2%;
+  
+    
+
+}
+   
+.music-studioSection .outdoor-eventsSection .laughter-therapySection .popular-eventsSection 
+.latest-playsSection .games-sportsSection .fun-activitesSection{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 10px;
+}
+
+.outdoor-eventsSection{
+    padding-top: 5%;
+}
+
+.laughter-therapySection{
+    padding-top: 4%;
+}
+
+.popular-eventsSection{
+    padding-top: 2%;
+}
+
+.latest-playsSection{
+    padding-top: 3%;
+}
+.games-sportsSection{
+    padding-top: 3%;
+}
+.fun-activitesSection{
+    padding-top:3%;
+}
+
+.lastSection-heading{
+    width: 90%;
+    height:6%;
+    margin-left:130px;
+
+}
+
+.lastSection-content{
+    width: 90%;
+    height:94%;
+    margin-left: 130px;
+    display: flex;
+    gap:28px;
+    cursor: pointer;
+    
+    
+}
+.lastSection-details{
+    width: 225px;
+    height:200px;
+    
+}
+
+.lastSection-eventphotoframe{
+    height: 340px;
+    width: 225px;   
+}
+
+.lastSection-eventphoto{
+    width:225px;
+    height: 340px;
+    border-radius: 8px;
+    object-fit: fill;
+}
+.lastSection-eventtitle{
+    width: 225px;
+    padding-top: 10px;
+}
+
+.lastSection-eventname{
+    font-size: 18px;
+    font-weight:500;
+    line-height: 1.33;
+    display: block;
+    font-family: roboto;
+}
+
+.lastSection-eventlocation{
+    font-size: 16px;
+    font-weight: normal;
+    color:rgb(102, 102, 102);
+    line-height: 1.5;
+
+}
+
+
+
+.trending-search{
+    margin-left: 130px;
+    font-family: roboto;
+
+}
+.trending-heading{
+    width: 100%;
+    height: 50px;
+
+}
+.btnline-trending{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    gap:20px
+
+}
+
+
+.trendingbtn-style{
+   padding-right:  50px;
+   padding-top: 1px;
+   padding-left: 10px;
+   padding-bottom: 15px;
+   background: rgb(255, 250, 250);
+   border: 0;
+   border-radius: 4px;
+   box-shadow: 0 0 1px rgba(0, 0, 0, .15);
+   display: flex;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.trendingbtn-title{
+    font-size: 16px;
+    font-family: roboto;
+    color: red;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+
+}
+.trendingbtn-des{
+    
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: normal;
+    color:rgb(102, 102, 102);
+    margin: 0;
+
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(49, 48, 53);
+    margin-top:0;
+    padding-bottom: 40px;
+    
+    
+}
+
+.footer-firstSection{
+    display: flex;
+    padding-left: 130px;
+    padding-top: 30px;
+    gap:10px;
+    vertical-align: top;
+    
+}
+
+.footer-firstSection-textbox1{
+    display: flex;
+    align-content: center;
+    padding-top: 8px;
+    margin-right:235px;
+}
+
+.footer-firstSection-text1{
+    font-family: roboto;
+    font-size: 16px;
+    color:white;
+    margin: 0 16px 0 4px;
+    font-weight: 600;
+}
+
+.footer-firstSection-text2{
+    font-family: roboto;
+    font-size: 16px;
+    color:white;
+    margin: 0 16px 0 4px;
+    font-weight: 400;
+}
+
+.footer-contactbtn{
+
+    background-color: rgb(236, 94, 113);
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border:none;
+    color: rgb(255, 255, 255);
+    font-family: roboto;
+    font-size: 15px;
+}
+
+.footer-secondSection{
+    width: 100%;
+    padding-bottom:1px;
+    margin-top:25px;
+    
+   background-color: rgb(64, 64, 67);
+
+}
+.footer-secondSection-container{
+    width:82%;
+    height: 110px;
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer-customer {
+    width: 125px;
+    height:100px;
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px
+
+    
+}
+.footer-customer:hover{
+    color: white;
+    fill: white;
+    
+}
+.footer-icon{
+    width: 100px;
+    color:white;
+    margin-left: 40px;
+
+}
+.footer-icon:hover{
+      fill:  white;
+      cursor: pointer;
+}
+.footer-icon-title{
+    font-family: roboto;
+    font-size: 11px;
+    color:rgba(188, 192, 196, 0.74);
+    /* color: rgb(203, 79, 8); */
+    
+}
+.footer-icon-title:hover{
+    color: rgb(225, 217, 217);
+    cursor: pointer;
+}
+
+.footer-resendBooking{
+    width: 180px;
+    height:100px;
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+
+    
+
+}
+.icon-color path{
+    fill:rgba(188, 192, 196, 0.74);
+}
+.icon-color:hover path{
+    fill:white;
+}
+.footer-subscribeNL{
+    width: 180px;
+    height:100px;
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:6px
+
+}
+
+.footer-thirdSection{
+    width: 90%;
+    margin-top: 5px;
+    margin-left:130px;
+}
+.footer-events{
+    width:100%;
+    height:1000px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.footer-events-style{
+    font-family:roboto;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    margin: 30px 0px 12px ;
+    color: rgb(165, 165, 165);
+    display: block;
+    text-transform: uppercase;
+
+}
+.footer-eventList-style{
+    font-size: 11px;
+    font-family: roboto;
+    color: rgb(127, 127, 127);
+    letter-spacing: 0.1px;
+    cursor: pointer;
+    margin: 0px 0px 5px 0px;
+    padding-right: 5px;
+    border-right: 1px solid rgb(127, 127, 127);
+   
+}
+
+.footer-eventList-style:hover{
+    color:white;
+    
+}
+.footer-lastSection{
+    height: 70px;
+    width:100%;
+    display: flex;
+}
+
+.footer-lastSection-box1{
+    height: 50px;
+    width:45%;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.footer-lastSection-box2{
+    height: 50px;
+    width:10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+    
+}
+.footer-lastSection-box3{
+    height: 50px;
+    width:45%;
+    display: flex;
+    align-items: center;
+    padding-right:25px;
+}
+
+.footer-line{
+    width: 100%;
+    height: 1px;
+   background: rgb(93, 93, 95);
+}
+
+.socialMedia-section{
+      width: 1420px;
+      /* height: 20%; */
+      height: 50px;
+      margin-left: 3%;
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+}
+.socialMedia-icon{
+    width: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.socialMedia-icon path{
+    fill: rgb(93, 93, 95);
+}
+
+.copyright-section{
+    width: 94%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.copyright-text{
+    font-family: roboto;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+   
+}
+
+
+
